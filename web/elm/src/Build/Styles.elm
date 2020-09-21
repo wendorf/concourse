@@ -62,6 +62,7 @@ header status =
 body : List (Html.Attribute msg)
 body =
     [ style "overflow-y" "auto"
+    , style "overflow-x" "hidden"
     , style "outline" "none"
     , style "position" "relative"
     , style "-webkit-overflow-scrolling" "touch"
